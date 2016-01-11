@@ -17,6 +17,9 @@
   },
   "author": "Kelly Selden <kellyselden@gmail.com> (https://github.com/kellyselden)",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kellyselden/fs-equal/issues"
+  },
   "dependencies": {
     "denodeify": "^1.0.0",
     "fs-extra": "0.26.4",
