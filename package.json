@@ -6,10 +6,10 @@
   "scripts": {
     "build": "babel lib -d dist",
     "prepublish": "npm run build",
-    "test": "eslint-mocha --eslint-args=\"lib/**/*.js test/acceptance/**/*.js\" --mocha-args=\"--compilers js:babel-register test/acceptance/**/*-test.js\"",
-    "cover": "babel-node node_modules/isparta/bin/isparta cover --include-all-sources --report html --report lcov node_modules/eslint-mocha/bin/eslint-mocha.js -- --eslint-args=\"lib/**/*.js test/acceptance/**/*.js\" --mocha-args=\"--compilers js:babel-register test/acceptance/**/*-test.js\"",
-    "debug": "node debug node_modules/mocha/bin/_mocha --no-timeouts --compilers js:babel-register test/acceptance/**/*-test.js",
-    "lint": "eslint lib/**/*.js test/acceptance/**/*.js"
+    "test": "eslint-mocha --eslint-args=\"lib/**/*.js test/!(fixtures)/**/*.js\" --mocha-args=\"--compilers js:babel-register test/**/*-test.js\"",
+    "cover": "babel-node node_modules/isparta/bin/isparta cover --include-all-sources --report html --report lcov node_modules/eslint-mocha/bin/eslint-mocha.js -- --eslint-args=\"lib/**/*.js test/!(fixtures)/**/*.js\" --mocha-args=\"--compilers js:babel-register test/**/*-test.js\"",
+    "debug": "node debug node_modules/mocha/bin/_mocha --no-timeouts --compilers js:babel-register test/**/*-test.js",
+    "lint": "eslint lib/**/*.js test/!(fixtures)/**/*.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   "bugs": {
     "url": "https://github.com/kellyselden/fs-equal/issues"
   },
+  "homepage": "https://github.com/kellyselden/fs-equal#readme",
   "dependencies": {
     "denodeify": "^1.0.0",
     "fs-extra": "0.26.4",
