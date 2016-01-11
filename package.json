@@ -1,7 +1,7 @@
 {
   "name": "fs-equal",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.0.2",
+  "description": "Check if files and folders are identical",
   "main": "dist/index.js",
   "scripts": {
     "build": "babel lib -d dist",
@@ -35,5 +35,13 @@
     "coveralls": "^2.0.0",
     "eslint-mocha": "0.0.4",
     "isparta": "^4.0.0"
-  }
+  },
+  "keywords": [
+    "fs",
+    "fs-extra",
+    "compare",
+    "equal",
+    "file",
+    "dir"
+  ]
 }
