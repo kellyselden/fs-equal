@@ -1,0 +1,22 @@
+ecmaFeatures:
+  modules: true
+  blockBindings: true
+  arrowFunctions: true
+  destructuring: true
+  templateStrings: true
+rules:
+  indent:
+    - 2
+    - 2
+    - SwitchCase: 1
+  quotes:
+    - 2
+    - single
+  semi:
+    - 2
+    - always
+  no-var: 2
+env:
+  node: true
+  mocha: true
+extends: 'eslint:recommended'

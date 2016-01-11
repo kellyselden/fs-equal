@@ -1,0 +1,34 @@
+environment:
+  matrix:
+  # node.js
+  - nodejs_version: "0.11"
+  - nodejs_version: "0.12"
+  - nodejs_version: "4"
+  - nodejs_version: "5"
+  # io.js
+  - nodejs_version: "1.0"
+
+platform:
+  - x86
+  - x64
+
+# Fix line endings in Windows. (runs before repo cloning)
+init:
+  - git config --global core.autocrlf true
+
+# Install scripts. (runs after repo cloning)
+install:
+  - ps: Install-Product node $env:nodejs_version $env:platform
+  - npm install
+
+# Post-install test scripts.
+test_script:
+  - node --version
+  - npm --version
+  - npm test
+
+cache:
+  - node_modules
+
+# Don't actually build.
+build: off

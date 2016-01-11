@@ -1,0 +1,10 @@
+coverage
+lib
+test
+.babelrc
+.editorconfig
+.eslintrc.yml
+.gitignore
+.istanbul.yml
+.travis.yml
+appveyor.yml
