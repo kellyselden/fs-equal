@@ -33,7 +33,7 @@
     "babel-register": "^6.0.0",
     "chai": "^3.0.0",
     "coveralls": "^2.0.0",
-    "eslint-mocha": "0.0.4",
+    "eslint-mocha": "0.0.5",
     "isparta": "^4.0.0"
   },
   "keywords": [
