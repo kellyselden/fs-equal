@@ -10,6 +10,14 @@
 
 Check if files and folders are identical
 
+###Installation
+
+```sh
+npm install fs-equal --save
+```
+
+###Usage
+
 ```js
 import { areFilesEqual, areDirsEqual } from 'fs-equal';
 
