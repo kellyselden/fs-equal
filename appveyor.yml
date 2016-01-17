@@ -27,8 +27,9 @@ test_script:
   - npm --version
   - npm test
 
+# http://help.appveyor.com/discussions/questions/1310-delete-cache
 cache:
-  - node_modules
+  - node_modules -> .appveyorcachesucks
 
 # Don't actually build.
 build: off
