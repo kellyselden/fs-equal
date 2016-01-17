@@ -1,6 +1,6 @@
 {
   "name": "fs-equal",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Check if files and folders are identical",
   "main": "dist/index.js",
   "scripts": {
