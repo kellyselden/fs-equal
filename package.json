@@ -1,6 +1,6 @@
 {
   "name": "fs-equal",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Check if files and folders are identical",
   "main": "dist/index.js",
   "scripts": {
@@ -33,7 +33,7 @@
     "babel-register": "^6.0.0",
     "chai": "^3.0.0",
     "coveralls": "^2.0.0",
-    "eslint-mocha": "0.0.5",
+    "eslint-mocha": "0.0.8",
     "isparta": "^4.0.0"
   },
   "keywords": [
