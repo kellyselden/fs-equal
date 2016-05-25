@@ -1,9 +1,6 @@
-ecmaFeatures:
-  modules: true
-  blockBindings: true
-  arrowFunctions: true
-  destructuring: true
-  templateStrings: true
+parserOptions:
+  ecmaVersion: 6
+  sourceType: 'module'
 rules:
   indent:
     - 2
