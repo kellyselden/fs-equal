@@ -47,5 +47,8 @@
     "equal",
     "file",
     "dir"
-  ]
+  ],
+  "greenkeeper": {
+    "ignore": ["eslint"]
+  }
 }
