@@ -24,7 +24,7 @@
   "homepage": "https://github.com/kellyselden/fs-equal#readme",
   "dependencies": {
     "denodeify": "^1.0.0",
-    "fs-extra": "0.30.0",
+    "fs-extra": "^1.0.0",
     "promise": "^7.0.0"
   },
   "devDependencies": {
