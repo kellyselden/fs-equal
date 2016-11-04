@@ -48,6 +48,9 @@
     "file",
     "dir"
   ],
+  "engines": {
+    "node": ">= 0.12.0"
+  },
   "greenkeeper": {
     "ignore": ["eslint"]
   }
