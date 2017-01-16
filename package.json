@@ -25,6 +25,7 @@
   "dependencies": {
     "denodeify": "^1.0.0",
     "fs-extra": "^2.0.0",
+    "klaw": "^1.0.0",
     "promise": "^7.0.0"
   },
   "devDependencies": {
