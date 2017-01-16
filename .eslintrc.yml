@@ -13,6 +13,7 @@ rules:
     - 2
     - always
   no-var: 2
+  comma-dangle: 2
 env:
   node: true
   mocha: true
