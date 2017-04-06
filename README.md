@@ -5,6 +5,7 @@
 [![Code Climate](https://codeclimate.com/github/kellyselden/fs-equal/badges/gpa.svg)](https://codeclimate.com/github/kellyselden/fs-equal)
 [![Coverage Status](https://coveralls.io/repos/kellyselden/fs-equal/badge.svg?branch=master&service=github)](https://coveralls.io/github/kellyselden/fs-equal?branch=master)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/kellyselden/fs-equal.svg)](https://greenkeeper.io/)
 [![npm version](https://badge.fury.io/js/fs-equal.svg)](https://badge.fury.io/js/fs-equal)
 [![dependencies Status](https://david-dm.org/kellyselden/fs-equal/status.svg)](https://david-dm.org/kellyselden/fs-equal)
 [![devDependencies Status](https://david-dm.org/kellyselden/fs-equal/dev-status.svg)](https://david-dm.org/kellyselden/fs-equal?type=dev)
