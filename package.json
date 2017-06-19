@@ -28,7 +28,7 @@
   "dependencies": {
     "denodeify": "^1.0.0",
     "klaw": "^1.0.0",
-    "promise": "^7.0.0"
+    "promise": "^8.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.0.0",
