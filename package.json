@@ -27,7 +27,7 @@
   "homepage": "https://github.com/kellyselden/fs-equal#readme",
   "dependencies": {
     "denodeify": "^1.0.0",
-    "klaw": "^1.0.0",
+    "klaw": "^2.0.0",
     "promise": "^8.0.0"
   },
   "devDependencies": {
