@@ -27,7 +27,12 @@ areFilesEqual('file1', 'file2').then(areEqual => {
   console.log(areEqual);
 });
 
-areDirsEqual('dir1', 'dir2').then(areEqual => {
+areDirsEqual('dir1', 'dir2', {
+  // optional
+  filter(fullPath) {
+    return fullPath !== 'some/path';
+  }
+}).then(areEqual => {
   console.log(areEqual);
 });
 ```
